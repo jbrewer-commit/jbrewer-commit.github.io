@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Cloud Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Section styling */
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* About section */
+        #about p {
+            font-size: 1.1rem;
+        }
+
+        /* Project section styling */
+        #projects article {
+            margin-bottom: 1.5rem;
+        }
+        #projects h3 {
+            margin: 0.5rem 0;
+            color: #0066cc;
+        }
+        #projects p {
+            margin: 0.5rem 0 1rem;
+        }
+        #projects a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        #projects a:hover {
+            text-decoration: underline;
+        }
+
+        /* Skills section */
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #skills li {
+            background: #f3f3f3;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+
+        /* Contact section */
+        #contact p {
+            font-size: 1.1rem;
+        }
+        #contact a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Your Name</h1>
+        <p>Aspiring Cloud Engineer & Solutions Architect</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a cloud enthusiast with hands-on experience in AWS services and a passion for building scalable, automated cloud solutions. I'm excited to leverage my skills in a cloud engineering or solutions architect role and continuously learn about new cloud technologies.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <article>
+            <h3>Cloud Infrastructure Automation</h3>
+            <p>Automated infrastructure setup on AWS using Terraform, including networking and security configurations for a scalable cloud environment.</p>
+            <a href="https://github.com/yourusername/project-repo">View on GitHub</a>
+        </article>
+        <article>
+            <h3>Serverless Web Application</h3>
+            <p>Developed a serverless web app with AWS Lambda, API Gateway, and DynamoDB, showcasing serverless architectures and API integrations.</p>
+            <a href="https://yourproject-link.com">View Live Demo</a> | <a href="https://github.com/yourusername/project-repo">View on GitHub</a>
+        </article>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>AWS (EC2, S3, Lambda, DynamoDB, CloudFormation)</li>
+            <li>Infrastructure as Code (Terraform, AWS CloudFormation)</li>
+            <li>Networking and Security</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out on <a href="https://www.linkedin.com/in/yourusername">LinkedIn</a> or email me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+
+</body>
+</html>
